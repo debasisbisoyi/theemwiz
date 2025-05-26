@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theemwiz-assignment</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-[#28293e]">
+    <main class="text-white min-h-screen container mx-auto">
+      <header class="flex items-center justify-between h-20 text-white">
+        <div class="logo">
+          <a href="/">
+            <img src="./public/logo.svg" class="logo" alt="logo-img" />
+          </a>
+        </div>
+        <nav class="flex items-center gap-20 text-lg">
+          <a href="">About</a>
+          <a href="">Services</a>
+          <a href="">Pricing</a>
+          <a href="">Blog</a>
+        </nav>
+        <div class="cta-contact">
+          <button
+            class="cta-button border border-gray-500 px-8 uppercase font-bold py-2.5 cursor-pointer rounded"
+          >
+            Contact
+          </button>
+        </div>
+      </header>
+      <section class="hero flex justify-between items-center gap-12 h-[calc(100vh-80px)]">
+        <div class="left w-1/2 flex flex-col gap-6 relative">
+            <span class="text-lg uppercase text-[#d66555] block">Modern studio</span>
+            <h1 class="text-8xl tracking-tight font-bold">We&apos;re Help<br/> To Build Your<br/> Dream Project</h1>
+            <img src="./public/Star.png" alt="star" class="absolute top-5 left-85 w-50 h-50 -z-10" />
+            <p class="text-gray-400 text-lg mt-4">Agency provides a full service range including technical<br/> skills, design, buisness understanding.</p>
+            <div class="cta flex gap-12 mt-4">
+                <button class="uppercase bg-[#ef6d58] rounded text-white px-4 py-3 font-bold">How we work</button>
+                <button class="capitalize text-lg">Contact us</button>
+            </div>
+            <div class="quotes flex items-center gap-4 mt-20">
+                <img src="./public/Bitmap.png" alt="">
+                <div class="quote">
+                    <p class="text-gray-400">"Put themselves in the merchant's shoes"</p>
+                    <span>Meta Inc.</span>
+                </div>
+            </div>
+        </div>
+        <div class="right w-1/2 flex justify-end">
+            <img src="./public/pic.png" alt="hero" class="object-fill w-[700px]"/>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
